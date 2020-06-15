@@ -6,7 +6,12 @@
 
 ## Objectives
 
-- describe the differences between Linear and Binary Search algorithms
+- describe the differences between Linear and Binary Search 
+
+Linear sorting must go through each element in an array and check it matches the target.
+
+A binary search can start from the middle of a sorted array and eliminate either everything ahead or behind that position based on the target value. This is then repeated, making it more efficient than a linear search by eliminating large amounts of data at a time.
+
 - define what runtime complexity is, differentiate between various classifications and categorize the performance of an algorithm using Big O notation
 - distinguish when to use, classify the performance, and implement code to conduct classic iterative sorting algorithms
 
